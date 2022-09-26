@@ -6,7 +6,6 @@ import torch
 import os
 import matplotlib.pyplot as plt
 
-
 def train_net(net, device, data_path, epochs=40, batch_size=2, lr=0.00001):
     # 加载训练集
 
